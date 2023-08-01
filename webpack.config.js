@@ -137,9 +137,7 @@ if (!dev) {
     configFront.plugins.push(new UglifyJsPlugin({
         sourceMap: false
     }))
-}
 
-if (!dev) {
     configBack.plugins.push(new UglifyJsPlugin({
         sourceMap: false
     }))
